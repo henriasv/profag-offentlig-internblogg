@@ -1,7 +1,7 @@
 import os
 import subprocess
 
-path = "pages"
+path = "_posts"
 currentPath = os.path.dirname(os.path.abspath(__file__))
 
 for dirName, subdirList, fileList in os.walk(path):
